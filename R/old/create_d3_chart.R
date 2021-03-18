@@ -4,10 +4,8 @@
 
   // 1. Access data
   const dat = await d3.json("file.json")
-  const dat_x = d => d.x
-  const dat_y = d => d.y
-
-  // 2. Create chart dim
+use_roxy
+  // 2. Create chart dimE09139E091396adsafdsfaf
 
   let dim = {
     width: width,
