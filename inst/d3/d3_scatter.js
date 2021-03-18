@@ -3,7 +3,6 @@
 // r2d3: https://rstudio.github.io/r2d3
 //
 
-
   const xAccessor = d => d.dewPoint
   const yAccessor = d => d.humidity
   const colorAccessor = d => d.cloudCover
@@ -52,7 +51,7 @@
 
   const colorScale = d3.scaleLinear()
     .domain(d3.extent(dataset, colorAccessor))
-    .range(["skyblue", "darkslategrey"])
+    .range(options.colors)
 
   // 5. Draw data
 
