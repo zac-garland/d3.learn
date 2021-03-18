@@ -13,18 +13,14 @@
     width: width,
     height: width,
     margin: {
-      top: 10,
-      right: 10,
+      top: 50,
+      right: 50,
       bottom: 50,
       left: 50,
     },
   }
-  dimensions.boundedWidth = dimensions.width
-    - dimensions.margin.left
-    - dimensions.margin.right
-  dimensions.boundedHeight = dimensions.height
-    - dimensions.margin.top
-    - dimensions.margin.bottom
+  dimensions.boundedWidth = width
+  dimensions.boundedHeight = height - 100
 
   // 3. Draw canvas
 
